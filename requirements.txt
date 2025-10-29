@@ -1,9 +1,10 @@
 # requirements.txt
 Flask==3.0.0
-gunicorn==21.2.0   # Servidor web que Heroku usará para correr Flask
-# Librerías de música e IA (ajusta las versiones)
+gunicorn==21.2.0   # Servidor web que Render usará para correr Flask
+# Librerías de música e IA
 mido
 python-midi
-music21
+music21 
 pydub
-tensorflow
+tensorflow 
+# ... cualquier otra dependencia de la IA
