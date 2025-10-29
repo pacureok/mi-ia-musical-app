@@ -1,2 +1,1 @@
-# Procfile (¡sin extensión!)
-web: gunicorn app:app
+gunicorn app:app
