@@ -1,0 +1,9 @@
+# requirements.txt
+Flask==3.0.0
+gunicorn==21.2.0   # Servidor web que Heroku usará para correr Flask
+# Librerías de música e IA (ajusta las versiones)
+mido
+python-midi
+music21
+pydub
+tensorflow
